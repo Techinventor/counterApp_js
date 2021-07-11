@@ -8,7 +8,6 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: saturate(1.1);
     color: #fff;
     font-family: 'Trebuchet MS', 'Lucida Grande', 
                     'Lucida Sans', Arial, sans-serif;
@@ -16,6 +15,7 @@ body{
     margin:0;
 }
 #app_wrap{
+    background-image:url("../images/backg1.jpg");
     background-color: #c68c53;
     width: 320px;
     padding:20px;
@@ -24,11 +24,10 @@ body{
     border: 3px solid #fff;
     margin: 5em auto;
     box-shadow: 0px 12px 12px -2px #000;
-    background-image:url("../images/backg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: saturate(0.8);
+   
 }
 #app_wrap h1{
     text-align: center;
